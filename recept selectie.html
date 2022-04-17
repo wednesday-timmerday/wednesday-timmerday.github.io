@@ -13,7 +13,18 @@
 <BODY bgcolor="lightgreen">
 <input type ="button" value ="recept cola pudding" onclick =window.open("recept.html")>&nbsp;&nbsp;&nbsp;&nbsp;
 <input type ="button" value ="recept suikerbrood" onclick =window.open("suikerbrood.html")>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type ="search" value ="" id ="search" onchange ="openPage()">
+  
+<script>
+  function openPage(){
+      var x = document.getElemtById("search").value;
+    
+      if (x == "colapudding"){
+          window.open("recept.html")
+      }
+  }
+  </script>
 </body>
-<center>
+</center>
 </head>
 </html>
