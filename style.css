@@ -20,6 +20,20 @@ nav .logo{
     font-size:24px;
     font-weight: bold;
     text-tranform: uppercase;
-    color:#fff;
-    
+    color:#fff;  
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
+nav ul li a{
+    line-height: 80px;
+    color:#fff;
+    padding 12px 30px;
+    text-decoration: none;
+    font-size:14px;
+    font-weight: bold;.
+}
+    
