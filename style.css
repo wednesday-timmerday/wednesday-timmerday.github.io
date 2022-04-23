@@ -1,8 +1,4 @@
-body{
-    margin: 0;
-    padding: 0;
-  font-family: Arial;
-}
+
 nav{
     position: fixed;
     top:0;
@@ -12,32 +8,4 @@ nav{
     box-sizing: border-box;
     background: rgba(0,0,0,0.6);
     border-bottom: 1px solid #fff;
-}
-nav .logo{
-    padding: 22px 20px;
-    height: 80px;
-    float: left;
-    font-size:24px;
-    font-weight: bold;
-    text-tranform: uppercase;
-    color:#fff;  
-nav ul{
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-nav ul li a{
-    line-height: 80px;
-    color:#fff;
-    padding 12px 30px;
-    text-decoration: none;
-    font-size:14px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-nav ul li a:hover;
-    background: rgba(0,0,0,0.7);
-    border-radius: 6px;
 }
