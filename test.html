@@ -1,21 +1,18 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>test</title>
-    <style>
-            .button {
-            backround-color:red;
-            color: white;
-            padding: 15px 32px;
-            text-algin: center;
-            text-decoration:none;
-            display: inline-block;
-            font-size 16px;
-            margin: 4px 2px;
-            cursor: pointer
-}
-    </style>
-  </head>
-  <body>
-    <input class="button" type="button" value="test"
-    </html>
+<head>
+<script>
+    var colors = ["red", "blue", "green"];
+    var colorIndex = 0;
+    function changeColor() {
+        var col = document.getElementById("body");
+        if( colorIndex >= colors.length ) {
+            colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++;
+    }
+</script>
+    <body id='body'>
+    <button onclick="changeColor();">Change color</button>
+    </body>
+  </html>
