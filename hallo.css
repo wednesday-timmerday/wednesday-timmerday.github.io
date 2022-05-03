@@ -10,13 +10,13 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #343F4F;
+  background: #FFFFFF;
 }
 .wrapper{
   display: flex;
 }
 .wrapper .static-txt{
-  color: #fff;
+  color: #000000;
   font-size: 60px;
   font-weight: 400;
 }
