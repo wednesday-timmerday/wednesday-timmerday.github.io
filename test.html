@@ -1,11 +1,23 @@
 <html>
 <head>
     <title>ERROR 404 | joris.com</title>
-    <link rel="script" href="easteregg.javascript">
 <center>
 <input type ="button" value ="Over" onclick =window.open("over.html")>&nbsp;&nbsp;&nbsp;&nbsp;
 <input type ="button" value ="recept" onclick =window.open("recept%20selectie.html")>&nbsp;&nbsp;&nbsp;&nbsp;
 <input type ="button" value ="speelgoed" onclick =window.open("test.html")>&nbsp;&nbsp;&nbsp;&nbsp;
+    <script>
+    
+    var  colors  =  [ "rood" ,  "blauw" ,  "groen" ,  "wit" ] ;
+    var  colorIndex  =  0 ;
+    functie  changeColor ( )  {
+        var  col  =  document . getElementById ( "body" ) ;
+        if (  colorIndex  >=  kleuren . lengte  )  {
+            venster . openen ( "index.html" )
+        }
+        kol . stijl . backgroundColor  =  kleuren [ colorIndex ] ;
+        colorIndex ++ ;
+    }
+    </script>
     <h1>ERROR 404</h1>
     <h2>ga terug naar de home pagina</h2>
     <body id='body'>
