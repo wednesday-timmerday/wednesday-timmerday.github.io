@@ -1,0 +1,26 @@
+<html>
+<head>
+<body>
+
+<script type="text/javascript">
+        window.onload = function () {
+            var DropdownList = document.getElementById('ctl00_centerContentPlaceHolder_ctlExhibitorManager_ctlMultilingualContainer_addressControl_ddCountry');
+            var SelectedIndex = DropdownList.selectedIndex;
+            var SelectedValue = DropdownList.value;
+            var SelectedText = DropdownList.options[DropdownList.selectedIndex].text;
+            
+            if (SelectedIndex == 0)
+            {
+document.getElementById('ctl00_centerContentPlaceHolder_ctlExhibitorManager_ctlMultilingualContainer_addressControl_ddCountry').SelectedValue == 48;
+                alert(SelectedText);
+            }
+            else
+            {
+                alert("User has specified country");
+
+            }      
+        }
+</script> 
+  </body>
+  </head>
+</html>
