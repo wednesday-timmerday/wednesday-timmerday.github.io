@@ -8,7 +8,7 @@
 <input type ="button" value ="recept" onclick =window.open("recept%20selectie.html")>&nbsp;&nbsp;&nbsp;&nbsp;
 <input type ="button" value ="contact" onclick =window.open("wednesday timmerday.html")>&nbsp;&nbsp;&nbsp;&nbsp;
 <h1 style="color:white">selecteer een recept</h1>
-  <p>hopelijk vind je het lekker</p>
+  <p style="color:white">hopelijk vind je het lekker</p>
   <title>Recept selectie | joris.com</title>
 <body>
 <style>
@@ -18,6 +18,22 @@ body {
 </style>
 <input type ="button" value ="recept cola pudding" onclick =window.open("recept.html")>&nbsp;&nbsp;&nbsp;&nbsp;
 <input type ="button" value ="recept suikerbrood" onclick =window.open("suikerbrood.html")>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="search" value="zoek recepten..." id="search" onchange="openPage()">
+
+    <script>
+        function openPage() {
+            var x = document.getElementById("search").value;
+
+            if (x === "cola pudding") {
+                window.open("/recept.html");
+            }
+
+            if (x === "cat") {
+                window.open("/suikerbrood.html")
+            }
+
+        }
+    </script>
 </body>
 </center>
 </head>
