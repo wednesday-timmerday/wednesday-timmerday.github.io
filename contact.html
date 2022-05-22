@@ -3,9 +3,25 @@
 <head>
   <link rel="shortcut icon" type="ico" href="favicon.ico"/>
 <center>
-<input type ="button" value ="zoek" onclick =window.open("zoek.html")>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" value="" placeholder="zoek.." id="zoek" onchange="openPage">
+  <input type="button" value="zoek het" onclick="openPage()">
   <h1>Contact</h1>
 <body>
+  <script>
+    function openPage() {
+      var x = document.getElementById("zoek")
+      
+      if (x === "home") {
+        window.open("home.html")
+      }
+      if (x === "over") {
+        window.open("over.html")
+      }
+      if (x === "recepten") {
+        window.open("recept%20selectie.html")
+      }
+    }
+  </script>
   <title>Contact | joris.com</title>
 <BODY bgcolor="#1ddb20">
 <p>
