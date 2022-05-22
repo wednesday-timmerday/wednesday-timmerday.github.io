@@ -3,7 +3,7 @@
 
 <center>
   <font face="cinzel" size="4">
-<input type ="button" value ="zoek" onclick =window.open("zoek.html")>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" value="" placeholder="zoek.." id="zoek" onchange="openPage()">
 <head>
       <link rel="shortcut icon" type="png" href="android-chrome-512x512.png"/>
 <title>Over | joris.com</title>
@@ -12,10 +12,19 @@
 
 <body>
 <BODY bgcolor="#1ddb20">
-
+<script>
+  function openPage() {
+    var x = document.getElementById("zoek")
+    
+    if (x === "home") {
+      window.open("home.html")
+    }
+    if (x === "recepten") {
+      window.open("recept%20selectie.html")
+  }
 <h1>Over</h1>
 <p> Dit is een site gemaakt in notepad++ ik ben een van de eigenaaren van wednesday timmerday. Wednesday timmerday is een clubje kinderen Wednesday timmerday is opgericht in 2019 en begon met dingen te timmeren </p>
-<img=src"download1.jpg">
+<img src="download1.jpg">
 </p>
 </center>
 </html>
