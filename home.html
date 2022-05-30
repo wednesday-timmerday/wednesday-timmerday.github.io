@@ -4,7 +4,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 
 
-<BODY bgcolor="#1ddb20">
+<BODY bgcolor="#fcc017">
   <title>home | joris.com</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -68,13 +68,32 @@ body {
 <body>
   <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a class="active" href="#about">About</a>
+  <a href="#about">About</a>
   <a href="#contact">Contact</a>
-  <input type="text" placeholder="Search..">
+  <input type="text" placeholder="zoek..." id="search" onchange="openPage()">
 </div>
 <center>
   <h1>Home</h1>
 <button class="button" onclick=window.open("recept%20selectie")>maak mijn recepten</button>
   </center>
+  <script>
+            function openPage() {
+            var x = document.getElementById("search").value;
+
+            if (x === "recept cola pudding") {
+                window.open("recept.html");
+            }
+
+            if (x === "recept suikerbrood") {
+                window.open("suikerbrood.html")
+            }
+          if (x === "recept kruidenboterbrood") {
+          window.open("niveau : makelijk l stokbrood met kruidenboter.html")
+          }
+          else {
+            window.open("nietgevonden.html")
+          }
+        }
+  </script>
 </body>
 </html>
