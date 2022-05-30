@@ -28,12 +28,13 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-  ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
 }
 
 li {
@@ -42,27 +43,32 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #666;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #111;
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
 }
 </style>
 </head>
 <body>
-    <li><a class="active" href="#home">Home</a></li>
-  <li><a href="">over</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li><a href="recept%20selectie.html">recepten</a></li>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 <center>
   <h1>Home</h1>
 <button class="button" onclick=window.open("recept%20selectie")>maak mijn recepten</button>
   </center>
-<ul>>
-</ul>
 </body>
 </html>
