@@ -67,9 +67,9 @@ body {
 </head>
 <body>
   <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
+  <a class="active" href="home.html">Home</a>
+  <a href="over.html">About</a>
+  <a href="contact.html">Contact</a>
   <input type="text" placeholder="zoek..." id="search" onchange="openPage()">
 </div>
 <center>
@@ -81,15 +81,24 @@ body {
             var x = document.getElementById("search").value;
 
             if (x === "Home") {
-                window.open("recept.html");
+                window.open("home.html");
             }
 
             if (x === "Over") {
-                window.open("suikerbrood.html")
+                window.open("over.html")
             }
-          if (x === "recepten") {
-          window.open("niveau : makelijk l stokbrood met kruidenboter.html")
+          if (x === "Recepten") {
+          window.open("recept%20selectie.html")
           }
+              if (x === "home") {
+                window.open("home.html")
+              }
+              if (x === "over") {
+                window.open("over.html")
+              }
+              if (x === "recepten) {
+                  window.open("recepten%20selectie.html")
+            }
           else {
             window.open("nietgevonden.html")
           }
