@@ -1,4 +1,3 @@
-<DOCTYPE html>
 <html>
 <head>
 <link rel="shortcut icon" type="image/png" href="favicon-32x32.png"/>
@@ -14,7 +13,7 @@ body {
 }
 </style>
     <input type="search" value="" placeholder="zoek recept bijv: recept kruidenboterbrood" id="search" onchange="openPage()">
-<input type="button" value="zoek het" onclick="openPage()">
+<input type="button" value="zoek het" onclick="openPage()">"
     <script>
         function openPage() {
             var x = document.getElementById("search").value;
@@ -31,7 +30,14 @@ body {
             case "suiker brood":
               window.open("suikerbrood.html");
               break
-          }
+            case "recept kruidenboterbrood":
+            case "recept kruidenboterstokbrood":
+            case "recept kruidenboter stokbrood":
+            case "kruidenboterbrood":
+            case "kruidenboterstokbrood":
+            case "kruidenboter stokbrood":
+              window.open("niveau : makelijk l stokbrood met kruidenboter.html")
+              break
         }
     </script>
 </body>
