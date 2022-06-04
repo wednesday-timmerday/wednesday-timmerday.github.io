@@ -18,26 +18,20 @@ body {
     <script>
         function openPage() {
             var x = document.getElementById("search").value;
-
-            if (x === "recept cola pudding") {
-                window.open("recept.html");
-            }
-          if (x === "recept colapudding") {
-            window.open("recept.html")
+          switch (x) {
+            case "recept colapudding":
+            case  "recept cola pudding":
+            case "colapudding":
+            case "cola pudding":
+              window.open("recept.html")
+              break
+            case "recept suikerbrood":
+            case "recept suiker brood":
+            case "suikerbrood":
+            case "suiker brood":
+              window.open("suikerbrood.html")
+              break
           }
-            if (x === "recept suikerbrood") {
-                window.open("suikerbrood.html")
-            }
-          if (x === "recept kruidenboterbrood") {
-          window.open("niveau : makelijk l stokbrood met kruidenboter.html")
-          }
-          if (x === "recept patat") {
-            window.open("patat.html")
-          }
-          if (x === "cola pudding") {
-            window.open("recept.html")
-          }
-        }
     </script>
 </body>
 </center>
