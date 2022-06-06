@@ -1,6 +1,8 @@
 <html>
 <head>
 <link rel="shortcut icon" type="image/png" href="favicon-32x32.png"/>
+   <link rel="script" href="zoek.recept.selectie.js">
+
 <center>
 <input type ="button" value ="zoek" onclick =window.open("zoek.html")>&nbsp;&nbsp;&nbsp;&nbsp;
 <h1 style="color:white">selecteer een recept</h1>
@@ -13,43 +15,7 @@ body {
 }
 </style>
     <input type="search" value="" placeholder="zoek recepten bijv: recept patat" id="search" onchange="openPage()">
-<input type="button" value="zoek het" onclick="openPage()">"
-    <script>
-        function openPage() {
-            var x = document.getElementById("search").value;
-          switch (x) {
-            case "recept colapudding":
-            case  "recept cola pudding":
-            case "colapudding":
-            case "cola pudding":
-              window.open("recept.html");
-              break
-            case "recept suikerbrood":
-            case "recept suiker brood":
-            case "suikerbrood":
-            case "suiker brood":
-              window.open("suikerbrood.html");
-              break
-            case "recept kruidenboterbrood":
-            case "recept kruidenboterstokbrood":
-            case "recept kruidenboter stokbrood":
-            case "kruidenboterbrood":
-            case "kruidenboterstokbrood":
-            case "kruidenboter stokbrood":
-              window.open("niveau : makelijk l stokbrood met kruidenboter.html")
-              break
-            case "recept patat":
-            case "recept frietjes":
-            case "recept patatjes":
-            case "recept friet":
-            case "patat":
-            case "frietjes":
-            case "patatjes":
-            case "friet":
-              window.open("patat.html")
-          }
-        }
-    </script>
+<input type="button" value="zoek het" onclick="openPage()">
 </body>
 </center>
 </head>
