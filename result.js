@@ -9,10 +9,8 @@ window.addEventListener('load', () => {
     /* const name = localStorage.getItem('NAME');
     const surname = localStorage.getItem('SURNAME'); */
     
-    const name = sessionStorage.getItem('NAME');
     const surname = sessionStorage.getItem('SURNAME');
     
-    document.getElementById('result-name').innerHTML = name;
     document.getElementById('result-surname').innerHTML = surname;
 
 })
