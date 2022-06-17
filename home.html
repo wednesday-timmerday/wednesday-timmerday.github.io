@@ -87,9 +87,9 @@ function getCookie(cname) {
 function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
-    alert("Welcome again " + user);
+    alert("Welkom terug " + user);
   } else {
-     user = prompt("Please enter your name:","");
+     user = prompt("Voer je naam in:","");
      if (user != "" && user != null) {
        setCookie("username", user, 30);
      }
