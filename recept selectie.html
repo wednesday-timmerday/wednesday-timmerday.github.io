@@ -12,7 +12,7 @@ body {
 }
 </style>
     <input type="search" value="" placeholder="zoek recepten bijv: recept patat" id="search" onchange="openPage()">
-<input type="button" value="zoek het" onclick="openPage()">
+<button type="submit"><i class="fa fa-search"></i></button>
    <script>
       
   
@@ -49,6 +49,12 @@ body {
             case "friet":
               window.open("patat.html")
                 break
+            case "recept appeltaart":
+            case "recept appel taart":
+            case "appeltaart":
+            case "appel taart":
+              window.open("appeltaart.html")
+              break
           }
         }
    </script>
