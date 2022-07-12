@@ -28,6 +28,12 @@ body {
     color: blue;
     text-decoration: none;
 }
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
 </style>
     <input type="search" value="" placeholder="zoek recepten bijv: recept patat" id="search" onchange="openPage()">
 <button type="submit"><i class="fa fa-search"></i></button>
@@ -76,6 +82,7 @@ body {
           }
         }
    </script>
+  <div class="cardContainer">
   <a href="recept.html" class="cardLink">
   <article class="card">
          <img src="download.jpg" class="tinyPicture">
@@ -87,6 +94,7 @@ body {
          <img src="hallo.jfif" class="tinyPicture">
     <h3 class="link">Dit is ook lekker!!!</h3>
   </article>
+      </div>
 </body>
 </center>
 </html>
