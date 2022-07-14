@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/png" href="favicon-32x32.png"/>
+    <title>Colapudding kopen</title>
+  </head>
+  <body>
+    <script src="https://smtpjs.com/v3/smtp.js">
+</script>
+    <script>
+      function sendEmail {
+      Email.send({
+    Host : "smtp.yourisp.com",
+    Username : "joris9210@gmail.com",
+    Password : "Kiwi56!!",
+    To : 'joris9210@gmail.com',
+    From : joris9210@gmail.com",
+    Subject : "Bestelling",
+    Body : "Iemand heeft colapudding gekocht!!"
+}).then(
+  message => alert("gekocht")
+);
+      }
+    </script>
+    <input type="button" value="kopen" onclick="sendEmail">
+  </body>
+</html>
