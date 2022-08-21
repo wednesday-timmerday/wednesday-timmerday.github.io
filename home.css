@@ -28,8 +28,5 @@ color: #fff;
   display: inline-block;
   font-size: 20px;
   cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
-.kn.home p{
- color: white;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
