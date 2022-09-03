@@ -53,3 +53,10 @@ body {
     border: 1px solid #ccc;  
   }
 }
+.text h1{
+  font-family: 'Fira Sans', sans-serif;
+color: blue;
+}
+.text p{
+  font-family: 'Fira Sans', sans-serif;
+}
