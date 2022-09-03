@@ -7,5 +7,11 @@ body {
 }
 a{
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
 }
