@@ -16,7 +16,8 @@ clip-path: polygon(100% 0, 100% 45%, 0 56%, 0 0);
 .test h1{
 color: #fff;
  margin-top: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif;
  }
  .kn.home{
     background-color: #4CAF50; /* Green */
