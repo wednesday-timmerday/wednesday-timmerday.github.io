@@ -11,6 +11,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   background: #FFFFFF;
+  width: clamp(200px, 50%, 600px);
 }
 .wrapper{
   display: flex;
@@ -63,3 +64,4 @@ body{
     left: 0;
   }
 }
+
