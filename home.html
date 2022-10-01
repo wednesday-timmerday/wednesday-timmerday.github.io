@@ -134,6 +134,10 @@ font-family: 'Montserrat', sans-serif;">Home</h1>
               if (x === "recepten") {
                   window.open("recept%20selectie.html")
               }
+		    else{
+			    window.open("kanhetnietvinden")
+		    }
+			    
         }
 function setCookie(cname,cvalue,exdays) {
   const d = new Date();
@@ -162,7 +166,7 @@ function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
     alert("Welkom terug " + user);
-  } else {
+  } 
      user = prompt("Voer je naam in:","");
      if (user != "" && user != null) {
        setCookie("username", user, 30);
