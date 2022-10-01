@@ -1,9 +1,9 @@
 body {
   background-color: #282b70;
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap')
 }
 .text{
-    font-family: 'Montserrat', sans-serif;
-  color: white;
+  font-family: 'Comfortaa', cursive;
 }
 a{
   color: white;
