@@ -3,11 +3,12 @@
     <title>test</title>
   </head>
   <body onload="checkCookie()">
+    <input type="button" onclick="checkCookie()" />
     <script>
       function checkCookie() {
       var favoritemovie = sessionStorage.getItem("favoriteMovie");
       console.log(favoritemovie);
       }
-
+    </script>
   </body>
 </html>
