@@ -2,9 +2,12 @@
   <head>
     <title>test</title>
   </head>
-  <body>
+  <body onload="GetInfo()">
     <script>
-      var x = sessionStorage.getItem("x");
-      console.log(x)
+      function GetInfo() {
+      var favoritemovie = sessionStorage.getItem("favoriteMovie");
+      console.log(favoritemovie);
+      }
+
   </body>
 </html>
