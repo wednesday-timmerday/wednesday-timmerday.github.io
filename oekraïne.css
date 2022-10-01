@@ -1,9 +1,13 @@
+html{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+}
+}
 body {
   background-color: #282b70;
-  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap')
 }
 .text{
   font-family: 'Comfortaa', cursive;
+  color: white;
 }
 a{
   color: white;
