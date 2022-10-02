@@ -1,13 +1,13 @@
 <html>
   <head>
     <title>test</title>
-  <body onload="checkCookie()">
+  <body>
+    </head>
     <script>
-      function checkCookie() {
+      document.onload = function checkCookie() {
       var x = sessionStorage.getItem("x");
 document.getElementById("demo").innerHTML = x
     </script>
-    </head>
     <h1 id="demo"></h1>
   </body>
 </html>
