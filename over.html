@@ -46,6 +46,8 @@
                   window.open("recept%20selectie.html")
             }
           else {
+            sessionStorage.clear()
+            sessionStorage.setItem("x", x)
             window.open("kanhetnietvinden.html")
           }
         }
