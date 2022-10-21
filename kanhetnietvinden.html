@@ -1,12 +1,12 @@
 <html>
   <head>
-    <title>test</title>
+  </head>
   <body onload="checkCookie()">
-    </head>
     <script>
       function checkCookie() {
       var x = sessionStorage.getItem('x')
         document.write("Geen resultaten voor: ", x)
+        document.title = "Geen resultaten voor", x;
       }
     </script>
     
