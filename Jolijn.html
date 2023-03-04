@@ -33,6 +33,11 @@ var qanswer = int2 - int1;
  
     function fire() {
 var uanswer = document.getElementById('answer').value;
+      if (qanswer < '0') {
+        alert(qanswer)
+        document.location.reload(true);
+      }
+      
       if (uanswer == qanswer) {
         alert("Goed zo");
         document.location.reload(true);
