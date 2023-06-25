@@ -30,12 +30,12 @@ var int1 = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 var int2 = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 document.getElementById('question').innerHTML = int2 + " " + "-" + " " + int1;
 var qanswer = int2 - int1;
+if (qanswer < 0) {
+  document.location.reload(true);
+}
  
-    function fire() {
+function fire() {
 var uanswer = document.getElementById('answer').value;
-      if (qanswer < 0) {
-        document.location.reload(true);
-      }
       
       if (uanswer == qanswer) {
         alert("Goed zo");
